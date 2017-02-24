@@ -6,7 +6,7 @@
 
 ## Description
 
-#### This page will take a number from a user, return a range of numbers from 1 to the chosen number, but with the following exceptions:
+#### This simple application will take a number from a user, return a range of numbers from 1 to the chosen number, but with the following exceptions:
 
 * Numbers divisible by 3 are replaced with "ping"
 * Numbers divisible by 5 are replaced with "pong"
@@ -21,11 +21,11 @@
 | When returning the list, all numbers divisible by 5 will be replaced with the word "pong". | 7  | 1, 2, ping, 4, pong, ping, 7 |
 | When returning the list, all numbers divisible by 15 will be replaced with the word "ping-pong". | 15 | 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong|
 
-###This is the initial release (1.0). Check out my page on gh-pages: https://likewater.github.io/track-suggester/
+###This is the initial release (1.0). Check out my page on gh-pages: https://likewater.github.io/ping-pong/
 
 #Getting Started
 
-###Feel free to use any of my code for your own purposes. There is nothing to download. Just fill out the questionnaire and press submit.
+###Feel free to use any of my code for your own purposes. There is nothing sacred here.
 
 #Built with the following tools:
 
@@ -41,4 +41,4 @@
 
 #Inspiration
 
-###Thanks to so many unnameable people whose projects I have taken note of and gained inspiration from. I hope to someday provide some inspiration to anyone that stumbles upon this page. Thanks to Douglas Crockford for writing JS books that even I can understand.
+###Thanks to so many unnameable people whose projects I have taken note of and gained inspiration from. Thanks to Douglas Crockford for writing JS books that even I can understand, sometimes...
