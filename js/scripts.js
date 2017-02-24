@@ -1,18 +1,26 @@
 //backend logic
 $(function() {
   var numberList = [];
+  var changeList = [];
   //count function
   var count = function countNumbers(counter) {
+
+
     for(i = 1; i <= counter; i++) {
+
+
       $("#listOutput").append('<li>' + i + '</li>');
       numberList.push(i);
-      numberList.forEach(function(i){
-      // if (i % 5 === 0){
-      //   i = "pong";
-      //   }
-      });
+      changeList.forEach(function(i){
+      if (i % 3 === 0) {
+        i = "ping";
+      }
+    });
     }
+
     console.log(numberList);
+    result = numberList;
+    return result;
   }
 
 //front end logic
