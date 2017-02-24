@@ -1,20 +1,29 @@
 //backend logic
+$(function() {
   var numberList = [];
   var alteredList = [];
-
   //count function
-  var count = function countToInput(userInput) {
-    for(var i = 1; i <= userInput; i++) {
-      $("<li>" + i + "</li>").append(numberList[i]);
+  //debugger;
+  var count = function countNumbers(counter) {
+    //alert(counter);
+    var text = "";
+    var x = counter;
+    for(var i = 1; i <= x; i++) {
+      //alert(x);
+      //$("<li id="listElement + i" " + i + "</li>").append("#listOutput");
+      //console.log(numberList[0]);
+      var result = text += i + "<br>";
+      //alert(result);
+      return result;
     }
 }
 
 //front end logic
-  $(function() {
     $("#formFlow").submit(function() {
       event.preventDefault();
-      var userInput = $("#text-input").val();
+      var userInput = $("#textInput").val();
       var result = count(userInput);
-      $("#listOutput").text(result;)
+      $("#listOutput").text(result);
+
     });
   });
